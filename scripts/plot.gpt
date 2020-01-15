@@ -1,5 +1,7 @@
-
+set term png
 set xlabel "number of trials"
+set xrange [0:1000]
 set ylabel "expected value"
-p '../data/fort.1' w l, 3.5 w l lw 2 lc 7
-pause -1
+set output "data.png"
+p '../data/fort.1' w l lw 2, 3.5 w l lw 2 lc 7
+
