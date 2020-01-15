@@ -1,0 +1,5 @@
+
+set xlabel "number of trials"
+set ylabel "expected value"
+p '../data/fort.1' w l, 3.5 w l lw 2 lc 7
+pause -1
